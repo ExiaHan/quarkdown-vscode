@@ -1,0 +1,23 @@
+{
+  "scopeName": "source.quarkdown",
+  "patterns": [
+    {
+      "include": "#basic"
+    }
+  ],
+  "repository": {
+    "basic": {
+      "patterns": [
+        {
+          "name": "comment.line.double-slash.quarkdown",
+          "match": "//.*$"
+        },
+        {
+          "name": "comment.block.quarkdown",
+          "begin": "/\\*",
+          "end": "\\*/"
+        }
+      ]
+    }
+  }
+}
